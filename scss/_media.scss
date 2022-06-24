@@ -1,0 +1,53 @@
+// tablet
+@media (max-width:1180px) {
+    .week{
+        &-wrapper__card{
+            width: 100%;
+            h1{
+                font-size:1rem;
+            }
+            div{
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (max-width:835px) {
+    .container{
+        padding: 0 15px;
+    }
+    .header{
+        &__item{
+            display: none;
+        }
+        &__wrapper{
+            
+                .burger{
+                    display: inline-block;
+                    padding: 15px;
+                }   
+        }
+        
+    }
+    .week{
+        &__wrapper{
+            .weekdays{
+                flex-direction: column;
+            }
+        }
+        &-wrapper__card{
+            h1{
+                
+                font-size: 2rem;
+            }
+            img{
+                height: 250px;
+            }
+            div{
+                justify-content: space-between;
+            }
+            
+        }
+    }
+}
